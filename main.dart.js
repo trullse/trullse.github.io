@@ -24733,7 +24733,7 @@ a8t(a){var s=0,r=A.O(t.a),q,p,o
 var $async$a8t=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:p=A.B(t.N,t.z)
 s=3
-return A.T(A.zo(A.eR("http://api.openweathermap.org/geo/1.0/direct?q="+a+"&limit=1&appid=d72691b50d908d797b56dcfa9b86cedc"),!0),$async$a8t)
+return A.T(A.zo(A.eR("https://api.openweathermap.org/geo/1.0/direct?q="+a+"&limit=1&appid=d72691b50d908d797b56dcfa9b86cedc"),!0),$async$a8t)
 case 3:o=c
 p.n(0,"name",o.h(0,"name"))
 p.n(0,"lat",o.h(0,"lat"))
